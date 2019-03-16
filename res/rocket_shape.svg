@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="-230 -100 660 200"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="rocket_shape.svg"
+   version="1.0"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape">
+  <defs
+     id="defs4">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient4266">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1"
+         offset="0"
+         id="stop4268" />
+      <stop
+         style="stop-color:#808080;stop-opacity:1"
+         offset="1"
+         id="stop4270" />
+    </linearGradient>
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 327 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="490 : 327 : 1"
+       inkscape:persp3d-origin="245 : 218 : 1"
+       id="perspective4717" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4266"
+       id="linearGradient4272"
+       x1="177.91803"
+       y1="315.55608"
+       x2="258.19309"
+       y2="315.55608"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.7071068"
+     inkscape:cx="249.50166"
+     inkscape:cy="285.48667"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer3"
+     inkscape:window-width="1280"
+     inkscape:window-height="778"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     showgrid="false"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <cc:license
+           rdf:resource="http://creativecommons.org/licenses/publicdomain/" />
+        <dc:contributor>
+          <cc:Agent>
+            <dc:title>Public Domain/Wikimedia Commons</dc:title>
+          </cc:Agent>
+        </dc:contributor>
+        <dc:description>Schematic diagram of a V-2 rocket design.</dc:description>
+        <dc:title>V-2 rocket (with English labels)</dc:title>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>User:Fastfission at Wikimedia Commons</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:publisher>
+          <cc:Agent>
+            <dc:title>Wikimedia Commons</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/licenses/publicdomain/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="rocket"
+     inkscape:groupmode="layer"
+     id="layer1"
+     style="display:inline" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="labels english" style="transform: rotate(90deg);transform-origin: 50% ;">
+    <path
+       style="fill:#afafaf;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;display:inline"
+       d="M 180.48544,463.42311 L 143.00878,524.23429 L 136.64482,641.61402 L 163.51487,641.61402 L 181.31386,625.22924 L 192.88621,625.22924 L 193.13621,610.50132 L 204.52707,543.32618 L 180.48544,463.42311 z "
+       id="path3197"
+       sodipodi:nodetypes="ccccccccc" />
+    <path
+       style="fill:#afafaf;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;display:inline"
+       d="M 255.62566,463.42311 L 293.10232,524.23429 L 299.46628,641.61402 L 272.59623,641.61402 L 254.79724,625.22924 L 243.22489,625.22924 L 242.97489,610.50132 L 231.58403,543.32618 L 255.62566,463.42311 z "
+       id="path3105"
+       sodipodi:nodetypes="ccccccccc" />
+    <path
+       id="path3877"
+       style="fill:url(#linearGradient4272);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;display:inline"
+       d="M 243.04303,610.18108 L 243.04303,618.93108 L 193.06801,618.93108 L 193.06801,610.18108 C 186.06801,576.18108 180.06801,462.18108 180.06801,462.18108 L 178.06801,278.18108 C 175.06801,173.18108 218.06801,12.18108 218.06801,12.18108 C 218.06801,12.18108 261.04303,173.18108 258.04303,278.18108 L 256.04303,462.18108 C 256.04303,462.18108 250.04303,576.18108 243.04303,610.18108 z "
+       sodipodi:nodetypes="cccccccccc" />
+    <path
+       style="fill:#ffff00;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;display:inline"
+       d="M 238.34568,101.82216 L 197.6673,101.82217 C 207.79405,50.44085 218.0125,12.18108 218.0125,12.18108 C 218.0125,12.18108 228.22501,50.44084 238.34568,101.82216 z "
+       id="path3141"
+       sodipodi:nodetypes="cccc" />
+    <path
+       id="path3585"
+       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;display:inline"
+       d="M 243.04303,610.18108 L 243.04303,618.93108 L 193.06801,618.93108 L 193.06801,610.18108 C 186.06801,576.18108 180.06801,462.18108 180.06801,462.18108 L 178.06801,278.18108 C 175.06801,173.18108 218.06801,12.18108 218.06801,12.18108 C 218.06801,12.18108 261.04303,173.18108 258.04303,278.18108 L 256.04303,462.18108 C 256.04303,462.18108 250.04303,576.18108 243.04303,610.18108 z "
+       sodipodi:nodetypes="cccccccccc" />
+  </g>
+</svg>

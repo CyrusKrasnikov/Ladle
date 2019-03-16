@@ -1,7 +1,245 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-us">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Ladle 3D Model by Kireal Kinetics</title>
+	<meta name="Author" content="Kireal Kinetics">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="keywords" content="metallurgy,cored wire,steel melt,3d model,hydrodynamics,thermodynamics,solid body dynamics">
+	<link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+	<link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+	<link rel="stylesheet" type="text/css" href="stylesheets/vid.css" media="screen">
+	<link rel="stylesheet" type="text/css" href="stylesheets/cssProgress.css" >
+</head>
+
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+	<section style="background:#5F4382; color:white; padding-left:5px">
+		<a target="_blank" class="donate_button" href="https://privatbank.ua/sendmoney?payment=6de1f543c20c49b6a3adb12bf07003f013f57cf2">
+			Donate
+		</a>
+		<div class="cssProgress">
+			<div class="progress3">
+				<div class="cssProgress-bar cssProgress-info cssProgress-active" data-percent="55" style="transition: none 0s ease 0s; "> <span title="For more detailed and faster computations (largest donated - 9$)" class="cssProgress-label">For a fast computer</span> </div>
+			</div>
+		</div>
+		<a target="_blank" class="donate_button" href="https://privatbank.ua/sendmoney?payment=6de1f543c20c49b6a3adb12bf07003f013f57cf2">
+			Допомога
+		</a>
+		<div class="cssProgress">
+			<div class="progress3">
+				<div class="cssProgress-bar cssProgress-info cssProgress-active" data-percent="55" style="transition: none 0s ease 0s; "> <span title="Для більш деталізованих і швидких обчислень (найбільший подарунок - 250 грн)" class="cssProgress-label">На швидкий комп’ютер</span> </div>
+			</div>
+		</div>
+		3D математична модель металургійного процесу ковшового доведення сталі дротом і гранулою
+		
+		<!--<br>
+		Необхідно дослідити процес ковшового доведення сталі? А у промислових і лабораторних умовах це неможливо чи економічно недоцільно?<br>
+KirLab допоможе спрогнозувати перебіг процесу, знайти кращі умови, 
+ виявити проблемні ситуації з візуалізацією у 3-вимірному просторі і часі.
+Також можна одержати відео-файл дослідження і таблиці розрахунків.-->
+	</section>
+	<section style="text-align: center; color:white;background-image: linear-gradient(120deg, #155799, #159957); padding:10px">
+		<div style="margin: 5px 5px 5px 5px;vertical-align: middle;height: 100px;width: 128px;background:url(res/logo.png);background-size: 128px 100px;"
+		 class="inl">
+		</div>
+		<!--<img src="res/logo.png" width="128">-->
+		<div class="inl" style="margin-left: 20px;margin-right: 20px;font-size: 1.25rem;vertical-align:middle;text-align: center;">
+			представляє<br><b style="font-size: 1.75rem;">KirLab</b><br><span>лабораторія чисельних досліджень<br>на основі законів фізики</span> <br>(динаміка твердого тіла<br>термодинаміка<br>гідродинаміка)
+		</div>
+		<img src="res/ladle.png" style="box-shadow: white 0px 0px 30px;margin: 5px;">
+		
+		<div style="display:inline-block;vertical-align: middle;">
+			<div class="cir"></div><br><div class="cir"></div>
+		</div>
+		<div class="cir" style="vertical-align: middle;margin-left: -2px;"></div><img src="res/scheme.png" style="box-shadow: white 0px 0px 30px;margin: 5px;"><div style="display:inline-block;vertical-align: middle;">
+			<div class="cir"></div><br><div class="cir"></div>
+		</div>
+		<div class="cir" style="vertical-align: middle;margin-left: -2px;"></div><img src="res/model.png" style="box-shadow: white 0px 0px 30px;margin: 5px;">
+
+		<br>		
+	</section>
+	<section>
+	</section>
+	<!--<section class="page-header" style="padding: 5px 5px;">
+		
+		<h1 class="project-name" style="line-height: initial; margin-bottom: -5px;">Ladle 3D Model</h1>
+	  <span style="font-size: 12px;opacity: 0.75;">based on physics laws</span>
+      <h2 class="project-tagline" style="margin-top: 0;"></h2>
+      <a href="https://github.com/kirealkinetics/Ladle" class="btn">View on GitHub</a>
+       <a href="https://github.com/kirealkinetics/Ladle/zipball/master" class="btn">Download .zip</a>
+      <a href="https://github.com/kirealkinetics/Ladle/tarball/master" class="btn">Download .tar.gz</a> 
+    </section>-->
+
+	<section>
+		<!-- src="http://www.youtube.com/embed/n_dZNLr2cME?rel=0&hd=1" -->
+		<!-- src="http://www.youtube.com/embed/XGSy3_Czz8k?autoplay=1&loop=1" -->
+		<div class="videoWrapper">
+			<div onclick='fnc(event,"EXThgh8cHtY")' style="background-image: url('https://img.youtube.com/vi/EXThgh8cHtY/hqdefault.jpg');background-size:cover;">
+				<div
+				 class="ytp-button"></div>
+			</div>
+			<div onclick='fnc(event,"dHlznENCFIs","50%")' style="background-image: url('https://img.youtube.com/vi/dHlznENCFIs/hqdefault.jpg');background-size:cover;left:50%;">
+				<div
+				 class="ytp-button"></div>
+			</div>
+			<!--<iframe width="560" height="349" src="https://www.youtube.com/embed/8QGTpltqVgo" frameborder="0" allowfullscreen  style="border:none; left:50%;"></iframe>-->
+		</div>
+		<div class="videoWrapper">
+			<div onclick='fnc(event,"RrOMyWZvj58")' style="background-image: url('https://img.youtube.com/vi/RrOMyWZvj58/hqdefault.jpg');background-size:cover;">
+				<div
+				 class="ytp-button"></div>
+			</div>
+			<div onclick='fnc(event,"8QGTpltqVgo","50%")' style="background-image: url('https://img.youtube.com/vi/8QGTpltqVgo/hqdefault.jpg');background-size:cover;left:50%;">
+				<div
+				 class="ytp-button"></div>
+			</div>
+
+			<!--<iframe width="560" height="349" src="http://www.youtube.com/embed/RrOMyWZvj58" frameborder="0" allowfullscreen  style="border:none"></iframe>
+		<iframe width="560" height="349" src="https://www.youtube.com/embed/8QGTpltqVgo" frameborder="0" allowfullscreen  style="border:none; left:50%;"></iframe>-->
+		</div>
+		<div class="videoWrapper">
+			<div onclick='fnc(event,"pRbxgJDE5vQ")' style="background-image: url('https://img.youtube.com/vi/pRbxgJDE5vQ/hqdefault.jpg');background-size:cover;">
+				<div
+				 class="ytp-button"></div>
+			</div>
+			<div onclick='fnc(event,"tKwR9eKuWvI","50%")' style="background-image: url('https://img.youtube.com/vi/tKwR9eKuWvI/hqdefault.jpg');background-size:cover;left:50%;">
+				<div
+				 class="ytp-button"></div>
+			</div>
+
+			<!--<iframe width="560" height="349" src="https://www.youtube.com/embed/pRbxgJDE5vQ" frameborder="0" allowfullscreen  style="border:none"></iframe>
+		<iframe width="560" height="349" src="https://www.youtube.com/embed/tKwR9eKuWvI" frameborder="0" allowfullscreen  style="border:none; left:50%;"></iframe>-->
+		</div>
+		<!--<video src="res/wire.mp4" controls style="width:50%"></video>-->
+		<!--<video src="res/granule.avi" controls style="width:50%"></video>	-->
+	</section>
+	<section style="color:white;background-image: linear-gradient(120deg, #155799, #159957); padding:10px">
+		<div>
+			<span >Результат = </span>
+			<div style="text-align:center;display: inline-block;vertical-align: middle">
+				<div class="arrow-up" style="display: inline-block;border-bottom-color:lightgreen;"></div>
+				<div class="arrow-up" style="width:100%;   border-bottom-color:#FFF399; margin-top: 0px;"></div>
+				<div style="border-radius: 0px 0px 5px 5px;  padding: 5px;background: linear-gradient(#FFF399,#FFCC99); color:black; margin-top: 5px">Підвищення<br>ефективності<br>процесу</div>
+			</div> +
+			<div style="text-align:center;display: inline-block;vertical-align: middle;  margin-top: 10px;">
+				<div style="border-radius: 5px 5px 0px 0px; padding: 5px;background: linear-gradient(#FFCC99,#FFF399); color:black; ">Зменшення<br>собівартості<br>сталевих<br>виробів</div>
+				<div class="arrow-down" style="width:100%;   border-top-color:#FFF399"></div>
+				<div class="arrow-down" style="display: inline-block;border-top-color:lightgreen"></div>
+			</div> +
+			<div style="text-align:center;display: inline-block;vertical-align: middle">
+					<div style="border-radius: 5px; padding: 5px;background: lightgreen; color:black; ">Впровадження<br>кращих<br>режимів<br>роботи</div>
+				</div>
+		</div>
+	</section>
+	<section class="main-content">
+		<h3>Задати питання або запропонувати вдосконалення</h3>
+		<h3>Задать вопрос или предложить усовершенствование</h3>
+
+		<a href="https://www.youtube.com/channel/UCj5Qw63uP7u7lWlMkD96A9Q" target="blank"><img class="ic" src="res\icons\You Tube.png"></a>
+		<a href="https://plus.google.com/u/0/106510793869630494569" target="blank"><img class="ic" src="res\icons\Google+.png"></a>
+		<a href="https://vk.com/kireal_kinetics" target="blank"><img class="ic" src="res\icons\VKontakte.png"></a>
+		<a href="https://github.com/kirealkinetics/Ladle/" target="blank"><img class="ic" src="res\icons\GitHub.png"></a>
+
+		<p>Математичну модель побудовано під час дослідження на кафедрі прикладної математики <a href="https://dstu.dp.ua" target="blank">Дніпровського
+				державного технічного університету (м. Кам’янське)</a></p>
+		<p>Математическая модель была построена в ходе исследования на кафедре прикладной математики <a href="https://dstu.dp.ua"
+			 target="blank">Днепровского государственного технического университета (г. Каменское)</a></p>
+
+		<!--
+      <h3>
+<a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
+
+<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here <a href="https://guides.github.com/features/mastering-markdown/">using GitHub Flavored Markdown</a>, select a template crafted by a designer, and publish. After your page is generated, you can check out the new <code>gh-pages</code> branch locally. If you’re using GitHub Desktop, simply sync your repository and you’ll see the new branch.</p>
+
+<h3>
+<a id="designer-templates" class="anchor" href="#designer-templates" aria-hidden="true"><span class="octicon octicon-link"></span></a>Designer Templates</h3>
+
+<p>We’ve crafted some handsome templates for you to use. Go ahead and click 'Continue to layouts' to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved.</p>
+
+<h3>
+<a id="creating-pages-manually" class="anchor" href="#creating-pages-manually" aria-hidden="true"><span class="octicon octicon-link"></span></a>Creating pages manually</h3>
+
+<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
+
+<h3>
+<a id="authors-and-contributors" class="anchor" href="#authors-and-contributors" aria-hidden="true"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
+
+<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor’s GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
+
+<h3>
+<a id="support-or-contact" class="anchor" href="#support-or-contact" aria-hidden="true"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
+
+<p>Having trouble with Pages? Check out our <a href="https://help.github.com/pages">documentation</a> or <a href="https://github.com/contact">contact support</a> and we’ll help you sort it out.</p>
+-->
+
+
+	</section>
+	<section style="background:#5F4382; color:white; padding-left:5px">3D model of metallurgical process - steel treatment
+		using cored wire and granule
+	</section>
+	<section style="text-align: center; color:white;background-image: linear-gradient(120deg, #155799, #159957); padding:10px">
+		<div style="margin: 5px 5px 5px 5px;vertical-align: middle;height: 100px;width: 128px;background:url(res/logo.png);background-size: 128px 100px;"
+		 class="inl">
+		</div>
+		<!--<img src="res/logo.png" width="128">-->
+		<div class="inl" style="margin-left: 20px;margin-right: 20px;font-size: 1.25rem;vertical-align:middle;text-align: center;">
+			presents<br><b style="font-size: 1.75rem;">KirLab</b><br><span>laboratory of numerical research<br> based on physics laws</span> <br>(rigid body dynamics<br>thermodynamics<br>hydrodynamics)
+		</div>
+		<!--<div class="effect2">-->
+		<img src="res/ladle.png" style="box-shadow: white 0px 0px 30px;margin: 5px;">
+		<!--</div>-->
+			
+		<div style="display:inline-block;vertical-align: middle;">
+			<div class="cir"></div><br><div class="cir"></div>
+		</div>
+		<div class="cir" style="vertical-align: middle;margin-left: -2px;"></div><img src="res/scheme.png" style="box-shadow: white 0px 0px 30px;margin: 5px;"><div style="display:inline-block;vertical-align: middle;">
+			<div class="cir"></div><br><div class="cir"></div>
+		</div>
+		<div class="cir" style="vertical-align: middle;margin-left: -2px;"></div><img src="res/model.png" style="box-shadow: white 0px 0px 30px;margin: 5px;">
+
+		<br>		
+	</section>
+	<section class="main-content">
+		<h3>Ask a question or suggest an improvement</h3>
+		
+		<a href="https://www.youtube.com/channel/UCj5Qw63uP7u7lWlMkD96A9Q" target="blank"><img class="ic" src="res\icons\You Tube.png"></a>
+		<a href="https://plus.google.com/u/0/106510793869630494569" target="blank"><img class="ic" src="res\icons\Google+.png"></a>
+		<a href="https://vk.com/kireal_kinetics" target="blank"><img class="ic" src="res\icons\VKontakte.png"></a>
+		<a href="https://github.com/kirealkinetics/Ladle/" target="blank"><img class="ic" src="res\icons\GitHub.png"></a>
+
+		<p>The mathematical model was built during the study at the Department of Applied Mathematics at the <a href="https://dstu.dp.ua"
+			 target="blank">Dniprovsky state technical university (The city of Kamianske)</a></p>					 
+			 <a target="_blank" style="color:white; background: linear-gradient( lightskyblue,blue); border-radius: 15px;border: 1px solid black;padding: 5px; text-shadow: black 1px 2px" href="https://privatbank.ua/sendmoney?payment=6de1f543c20c49b6a3adb12bf07003f013f57cf2">Donate / Допомога</a>&nbsp;
+			 <img src="res/qr_code.png">
+	</section>
+	
+	<!-- footer -->
+	<section class="main-content">
+		<footer class="site-footer">
+			<span class="site-footer-owner">
+				Website is maintained by <a href="https://github.com/kirealkinetics">Kireal
+					Kinetics</a>.</span>
+
+			<span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using
+				the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason
+					Long</a>.</span>
+		</footer>
+	</section>
+	<script>
+		function fnc(e, vid, left)
+		{
+			var ifr = document.createElement("iframe");
+			ifr.width = "560"; ifr.height = "349"; ifr.src = 'https://www.youtube.com/embed/' + vid + '?autoplay=1';
+			//ifr.frameborder="0"; 
+			ifr.setAttribute("allowfullscreen", true); ifr.style.border = 'none';
+			//debugger;
+			if (left) ifr.style.left = left;
+			e.target.parentNode.replaceChild(ifr, e.target);
+		}
+	</script>
 </body>
+
 </html>

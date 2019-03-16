@@ -1,0 +1,122 @@
+.donate_button{
+  line-height: initial;float:left;color:white; background: linear-gradient( lightskyblue,blue); border-radius: 15px;border: 1px solid black;padding: 0px 5px; text-shadow: black 1px 2px;
+}
+
+.glow  {
+  box-shadow: 0 5px 5px rgba(255, 255, 255, .7) inset, 0 -5px 5px rgba(255, 255, 255, .7) inset;    
+  /*animation: animate-glow 1s ease-out infinite;          */
+}
+
+@keyframes animate-glow {
+0% { box-shadow: 0 5px 5px rgba(255, 255, 255, .7) inset, 0 -5px 5px rgba(255, 255, 255, .7) inset;} 
+50% { box-shadow: 0 5px 5px rgba(255, 255, 255, .3) inset, 0 -5px 5px rgba(255, 255, 255, .3) inset;} 
+100% { box-shadow: 0 5px 5px rgba(255, 255, 255, .7) inset, 0 -5px 5px rgba(255, 255, 255, .7) inset;}
+}
+
+.ytp-large-play-button{
+width: 42px;
+  height: 30px;
+  margin-left: -21px;
+  margin-top: -15px;
+}
+
+.ytp-button{
+background:url(../res/youtubeplay.svg) no-repeat center;height:25%;width:100%;margin-top:25%;pointer-events:none;
+
+}
+.ytp-button:hover{fill:#cc181e;}
+
+.ytp-large-play-button path::first-child{fill:inherit;}
+
+.videoWrapper {
+	position: relative;
+	padding-bottom: 28%; /*56.25%;*/ /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 50%;
+	height: 100%;
+}
+
+.videoWrapper >div {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 50%;
+	height: 100%;
+}
+
+.inl{
+	display: inline-block;
+}
+
+img{
+	vertical-align: middle;
+}
+
+.cir{
+  display: inline-block;
+  border-radius: 15px;
+  border: white solid;
+  width: 15px;
+  height: 15px;
+  background: white;
+}
+
+.ic{
+	width:64px;	height:64px;
+}
+
+.arrow-up {
+  width: 0; 
+  height: 0; 
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;  
+	border-bottom: 25px solid black;
+	margin-top: 5px;
+}
+
+.arrow-down {
+  width: 0; 
+  height: 0; 
+  border-left: 24px solid transparent;
+  border-right: 24px solid transparent;
+  
+	border-top: 20px solid #f00;
+	margin-top: 5px;
+}
+
+/*==================================================
+ * Effect 2
+ * ===============================================*/
+.effect2
+{
+  position: relative;
+}
+.effect2:before, .effect2:after
+{
+  z-index: -1;
+  position: absolute;
+  content: "";
+  bottom: 15px;
+  left: 10px;
+  width: 50%;
+  top: 80%;
+  max-width:300px;
+  background: #777;
+  -webkit-box-shadow: 0 15px 10px #777;
+  -moz-box-shadow: 0 15px 10px #777;
+  box-shadow: 0 15px 10px #777;
+  -webkit-transform: rotate(-3deg);
+  
+}
+.effect2:after
+{
+  -webkit-transform: rotate(3deg);
+  right: 10px;
+  left: auto;
+}
